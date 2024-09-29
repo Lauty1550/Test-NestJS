@@ -7,7 +7,7 @@ import { PersonaController } from './controller/persona.controller';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://lauty:qazpoeazClewa8W3@ingenieria.jwq3s.mongodb.net/Test?retryWrites=true&w=majority&appName=Ingenieria')
+    MongooseModule.forRoot()
     ,PersonaModule], 
   controllers: [AppController],
   providers: [AppService],
